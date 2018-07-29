@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=rFeqVMzGHEc&list=PLvgTKus9CY18gs_EeOLpr6TfEhs05V
 預覽
 --------
 <p align="left">
-  <img src="https://i.imgur.com/sOHHRhR.jpg" hight="260"/>
-  <img src="https://i.imgur.com/lYQIYcM.jpg" hight="260"/>
+  <img src="https://i.imgur.com/sOHHRhR.jpg" width="150"/>
+  <img src="https://i.imgur.com/lYQIYcM.jpg" width="150"/>
 </p> 
 
