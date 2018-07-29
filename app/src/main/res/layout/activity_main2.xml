@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6a8a82"
+    android:orientation="horizontal"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"
+            android:scaleType="centerInside"
+            android:src="@drawable/nba_chicago_bulls"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="142dp"
+        android:layout_height="match_parent"
+        android:background="#e0563838"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
+
+        <Button
+            android:id="@+id/pickButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_style"
+            android:text="高斯模糊"
+            android:textAllCaps="false"
+            android:textColor="#a7414a"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/rgbaCameraButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_style"
+            android:text="一般模式"
+            android:textAllCaps="false"
+            android:textColor="#a7414a"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/grayCameraButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_style"
+            android:text="黑白模式"
+            android:textAllCaps="false"
+            android:textColor="#a7414a"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/cannyCameraButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_style"
+            android:text="邊緣檢測模式"
+            android:textAllCaps="false"
+            android:textColor="#a7414a"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
+    </LinearLayout>
+</LinearLayout>

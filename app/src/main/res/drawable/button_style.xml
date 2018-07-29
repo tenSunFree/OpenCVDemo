@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape>
+            <gradient
+                android:angle="-90"
+                android:centerColor="#282726"
+                android:endColor="#6a8a82"
+                android:startColor="#6a8a82"
+                android:type="linear"/>
+            <stroke
+                android:width="4dp"
+                android:color="#a37c27"/>
+            <corners
+                android:radius="4dp"/>
+            <padding
+                android:bottom="0dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+        </shape>
+    </item>
+
+    <item android:state_enabled="false">
+        <shape>
+            <gradient
+                android:angle="-90"
+                android:centerColor="#282726"
+                android:endColor="#6a8a82"
+                android:startColor="#6a8a82"
+                android:type="linear"/>
+            <stroke
+                android:width="4dp"
+                android:color="#a37c27"/>
+            <corners
+                android:radius="4dp"/>
+            <padding
+                android:bottom="0dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <stroke
+                android:width="2dp"
+                android:color="#70a37c27"/>
+            <corners
+                android:radius="4dp"/>
+            <gradient
+                android:angle="-90"
+                android:centerColor="#70282726"
+                android:endColor="#706a8a82"
+                android:startColor="#706a8a82"
+                android:type="linear"/>
+            <padding
+                android:bottom="0dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp"/>
+        </shape>
+    </item>
+</selector>

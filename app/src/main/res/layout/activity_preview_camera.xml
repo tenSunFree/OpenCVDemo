@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6a8a82"
+    android:orientation="horizontal"
+    tools:context=".PreviewCameraActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.example.administrator.opencvdemo.CustomJavaCameraView
+            android:id="@+id/javaCameraView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="142dp"
+        android:layout_height="match_parent"
+        android:background="#e0563838"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/captureButton"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button_style"
+            android:text="擷取圖片"
+            android:textAllCaps="false"
+            android:textColor="#a7414a"/>
+    </LinearLayout>
+</LinearLayout>
