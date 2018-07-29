@@ -12,12 +12,12 @@ https://www.youtube.com/watch?v=rFeqVMzGHEc&list=PLvgTKus9CY18gs_EeOLpr6TfEhs05V
 預覽
 --------
 <p align="left">
-  <img src="https://i.imgur.com/sOHHRhR.jpg" width="400"/>
+  <img src="https://i.imgur.com/sOHHRhR.jpg" width="600"/>
 </p> 
 <p align="left">
- <img src="https://i.imgur.com/lYQIYcM.jpg" width="400"/>
+ <img src="https://i.imgur.com/lYQIYcM.jpg" width="600"/>
 </p> 
 <p align="left">
-  <img src="https://i.imgur.com/f2c6HaS.jpg" width="400"/>
+  <img src="https://i.imgur.com/f2c6HaS.jpg" width="600"/>
 </p> 
 
